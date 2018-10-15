@@ -1,0 +1,6 @@
+framework module Pods_BartApp {
+  umbrella header "Pods-BartApp-umbrella.h"
+
+  export *
+  module * { export * }
+}

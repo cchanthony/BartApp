@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03F7740B84D0000EAAAE7972 /* Pods_BartApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38C0429C5ECC4A5FDA97032E /* Pods_BartApp.framework */; };
+		AA2C159E71BD7A9D29320747 /* Pods_BartAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90408AD99F1AC1BCC603A8D7 /* Pods_BartAppUITests.framework */; };
+		B14E7AA2214791FE00ED97C3 /* IncomingTrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AA1214791FE00ED97C3 /* IncomingTrain.swift */; };
+		B14E7AA42148C22F00ED97C3 /* StationInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AA32148C22F00ED97C3 /* StationInfoViewController.swift */; };
+		B14E7AA62148C27700ED97C3 /* IncomingTrainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AA52148C27700ED97C3 /* IncomingTrainTableViewCell.swift */; };
+		B14E7AA821520C8D00ED97C3 /* TripInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AA721520C8D00ED97C3 /* TripInfoViewController.swift */; };
+		B14E7AAA2153318100ED97C3 /* Trip.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AA92153318100ED97C3 /* Trip.swift */; };
+		B14E7AAC2153325D00ED97C3 /* Fare.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AAB2153325D00ED97C3 /* Fare.swift */; };
+		B14E7AAE2153370E00ED97C3 /* Leg.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AAD2153370E00ED97C3 /* Leg.swift */; };
+		B14E7AB02154C3F400ED97C3 /* TripInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14E7AAF2154C3F400ED97C3 /* TripInfoTableViewCell.swift */; };
+		B1973A8D2136711E001B6089 /* BartAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1973A8C2136711E001B6089 /* BartAPI.swift */; };
+		B1973A8F213E5D7F001B6089 /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1973A8E213E5D7F001B6089 /* FavoriteViewController.swift */; };
+		B1973A9121424C19001B6089 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1973A9021424C19001B6089 /* HomeViewController.swift */; };
+		B1973A9621450E68001B6089 /* SearchHeaderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1973A9521450E68001B6089 /* SearchHeaderController.swift */; };
+		B19EEFA62131DCEE0053E619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFA52131DCEE0053E619 /* AppDelegate.swift */; };
+		B19EEFA82131DCEE0053E619 /* SearchStationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFA72131DCEE0053E619 /* SearchStationViewController.swift */; };
+		B19EEFAD2131DCF30053E619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B19EEFAC2131DCF30053E619 /* Assets.xcassets */; };
+		B19EEFB02131DCF30053E619 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B19EEFAE2131DCF30053E619 /* LaunchScreen.storyboard */; };
+		B19EEFBB2131DCF30053E619 /* BartAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFBA2131DCF30053E619 /* BartAppTests.swift */; };
+		B19EEFC62131DCF30053E619 /* BartAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFC52131DCF30053E619 /* BartAppUITests.swift */; };
+		B19EEFD5213379D00053E619 /* Station.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFD4213379D00053E619 /* Station.swift */; };
+		B19EEFD721337A930053E619 /* BartURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFD621337A930053E619 /* BartURL.swift */; };
+		B19EEFDC2133CB5F0053E619 /* SearchRouteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B19EEFDB2133CB5F0053E619 /* SearchRouteTableViewCell.swift */; };
+		FD95EA7DFDCE4D6F44D0AD36 /* Pods_BartAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AAA43AEB427E697BD26D0 /* Pods_BartAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B19EEFB72131DCF30053E619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19EEF9A2131DCEE0053E619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19EEFA12131DCEE0053E619;
+			remoteInfo = BartApp;
+		};
+		B19EEFC22131DCF30053E619 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B19EEF9A2131DCEE0053E619 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B19EEFA12131DCEE0053E619;
+			remoteInfo = BartApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03E14ECB3FC995F5E2D007E6 /* Pods-BartAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartAppTests/Pods-BartAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2505DB5EC4835462A3D1966F /* Pods-BartAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartAppUITests/Pods-BartAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		38C0429C5ECC4A5FDA97032E /* Pods_BartApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4201109B67F416F0E5A44C32 /* Pods-BartAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartAppUITests/Pods-BartAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA9640F22750759A3890669 /* Pods-BartAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartAppTests/Pods-BartAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		90408AD99F1AC1BCC603A8D7 /* Pods_BartAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93D3D619139AE2F9DD159A5E /* Pods-BartApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BartApp/Pods-BartApp.release.xcconfig"; sourceTree = "<group>"; };
+		9F3C914F8C8EE6DB2C71E612 /* Pods-BartApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BartApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BartApp/Pods-BartApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B14E7AA1214791FE00ED97C3 /* IncomingTrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingTrain.swift; sourceTree = "<group>"; };
+		B14E7AA32148C22F00ED97C3 /* StationInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationInfoViewController.swift; sourceTree = "<group>"; };
+		B14E7AA52148C27700ED97C3 /* IncomingTrainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomingTrainTableViewCell.swift; sourceTree = "<group>"; };
+		B14E7AA721520C8D00ED97C3 /* TripInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoViewController.swift; sourceTree = "<group>"; };
+		B14E7AA92153318100ED97C3 /* Trip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trip.swift; sourceTree = "<group>"; };
+		B14E7AAB2153325D00ED97C3 /* Fare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fare.swift; sourceTree = "<group>"; };
+		B14E7AAD2153370E00ED97C3 /* Leg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leg.swift; sourceTree = "<group>"; };
+		B14E7AAF2154C3F400ED97C3 /* TripInfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripInfoTableViewCell.swift; sourceTree = "<group>"; };
+		B1973A8C2136711E001B6089 /* BartAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartAPI.swift; sourceTree = "<group>"; };
+		B1973A8E213E5D7F001B6089 /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		B1973A9021424C19001B6089 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B1973A9521450E68001B6089 /* SearchHeaderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchHeaderController.swift; sourceTree = "<group>"; };
+		B19EEFA22131DCEE0053E619 /* BartApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BartApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19EEFA52131DCEE0053E619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B19EEFA72131DCEE0053E619 /* SearchStationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchStationViewController.swift; sourceTree = "<group>"; };
+		B19EEFAC2131DCF30053E619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B19EEFAF2131DCF30053E619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B19EEFB12131DCF30053E619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19EEFB62131DCF30053E619 /* BartAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BartAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19EEFBA2131DCF30053E619 /* BartAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartAppTests.swift; sourceTree = "<group>"; };
+		B19EEFBC2131DCF30053E619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19EEFC12131DCF30053E619 /* BartAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BartAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B19EEFC52131DCF30053E619 /* BartAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartAppUITests.swift; sourceTree = "<group>"; };
+		B19EEFC72131DCF30053E619 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B19EEFD4213379D00053E619 /* Station.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Station.swift; sourceTree = "<group>"; };
+		B19EEFD621337A930053E619 /* BartURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartURL.swift; sourceTree = "<group>"; };
+		B19EEFDB2133CB5F0053E619 /* SearchRouteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouteTableViewCell.swift; sourceTree = "<group>"; };
+		C45AAA43AEB427E697BD26D0 /* Pods_BartAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BartAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B19EEF9F2131DCEE0053E619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F7740B84D0000EAAAE7972 /* Pods_BartApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFB32131DCF30053E619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD95EA7DFDCE4D6F44D0AD36 /* Pods_BartAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFBE2131DCF30053E619 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA2C159E71BD7A9D29320747 /* Pods_BartAppUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B152849EF24D38BFF17887C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9F3C914F8C8EE6DB2C71E612 /* Pods-BartApp.debug.xcconfig */,
+				93D3D619139AE2F9DD159A5E /* Pods-BartApp.release.xcconfig */,
+				03E14ECB3FC995F5E2D007E6 /* Pods-BartAppTests.debug.xcconfig */,
+				7EA9640F22750759A3890669 /* Pods-BartAppTests.release.xcconfig */,
+				4201109B67F416F0E5A44C32 /* Pods-BartAppUITests.debug.xcconfig */,
+				2505DB5EC4835462A3D1966F /* Pods-BartAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B19EEF992131DCEE0053E619 = {
+			isa = PBXGroup;
+			children = (
+				B19EEFA42131DCEE0053E619 /* BartApp */,
+				B19EEFB92131DCF30053E619 /* BartAppTests */,
+				B19EEFC42131DCF30053E619 /* BartAppUITests */,
+				B19EEFA32131DCEE0053E619 /* Products */,
+				8B152849EF24D38BFF17887C /* Pods */,
+				DF9105435FDB1E11706F5AF0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B19EEFA32131DCEE0053E619 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFA22131DCEE0053E619 /* BartApp.app */,
+				B19EEFB62131DCF30053E619 /* BartAppTests.xctest */,
+				B19EEFC12131DCF30053E619 /* BartAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19EEFA42131DCEE0053E619 /* BartApp */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFDD2133E5250053E619 /* Bart API */,
+				B19EEFDA2133CB4C0053E619 /* Elements */,
+				B19EEFD92133CB240053E619 /* View Controllers */,
+				B19EEFD3213379A90053E619 /* Data Model */,
+				B19EEFA52131DCEE0053E619 /* AppDelegate.swift */,
+				B19EEFAC2131DCF30053E619 /* Assets.xcassets */,
+				B19EEFAE2131DCF30053E619 /* LaunchScreen.storyboard */,
+				B19EEFB12131DCF30053E619 /* Info.plist */,
+			);
+			path = BartApp;
+			sourceTree = "<group>";
+		};
+		B19EEFB92131DCF30053E619 /* BartAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFBA2131DCF30053E619 /* BartAppTests.swift */,
+				B19EEFBC2131DCF30053E619 /* Info.plist */,
+			);
+			path = BartAppTests;
+			sourceTree = "<group>";
+		};
+		B19EEFC42131DCF30053E619 /* BartAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFC52131DCF30053E619 /* BartAppUITests.swift */,
+				B19EEFC72131DCF30053E619 /* Info.plist */,
+			);
+			path = BartAppUITests;
+			sourceTree = "<group>";
+		};
+		B19EEFD3213379A90053E619 /* Data Model */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFD4213379D00053E619 /* Station.swift */,
+				B14E7AA1214791FE00ED97C3 /* IncomingTrain.swift */,
+				B14E7AA92153318100ED97C3 /* Trip.swift */,
+				B14E7AAB2153325D00ED97C3 /* Fare.swift */,
+				B14E7AAD2153370E00ED97C3 /* Leg.swift */,
+			);
+			path = "Data Model";
+			sourceTree = "<group>";
+		};
+		B19EEFD92133CB240053E619 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFA72131DCEE0053E619 /* SearchStationViewController.swift */,
+				B1973A8E213E5D7F001B6089 /* FavoriteViewController.swift */,
+				B1973A9021424C19001B6089 /* HomeViewController.swift */,
+				B1973A9521450E68001B6089 /* SearchHeaderController.swift */,
+				B14E7AA32148C22F00ED97C3 /* StationInfoViewController.swift */,
+				B14E7AA721520C8D00ED97C3 /* TripInfoViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		B19EEFDA2133CB4C0053E619 /* Elements */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFDB2133CB5F0053E619 /* SearchRouteTableViewCell.swift */,
+				B14E7AA52148C27700ED97C3 /* IncomingTrainTableViewCell.swift */,
+				B14E7AAF2154C3F400ED97C3 /* TripInfoTableViewCell.swift */,
+			);
+			path = Elements;
+			sourceTree = "<group>";
+		};
+		B19EEFDD2133E5250053E619 /* Bart API */ = {
+			isa = PBXGroup;
+			children = (
+				B19EEFD621337A930053E619 /* BartURL.swift */,
+				B1973A8C2136711E001B6089 /* BartAPI.swift */,
+			);
+			path = "Bart API";
+			sourceTree = "<group>";
+		};
+		DF9105435FDB1E11706F5AF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				38C0429C5ECC4A5FDA97032E /* Pods_BartApp.framework */,
+				C45AAA43AEB427E697BD26D0 /* Pods_BartAppTests.framework */,
+				90408AD99F1AC1BCC603A8D7 /* Pods_BartAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B19EEFA12131DCEE0053E619 /* BartApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19EEFCA2131DCF30053E619 /* Build configuration list for PBXNativeTarget "BartApp" */;
+			buildPhases = (
+				BEDE432A14DC0C5A36812E33 /* [CP] Check Pods Manifest.lock */,
+				B19EEF9E2131DCEE0053E619 /* Sources */,
+				B19EEF9F2131DCEE0053E619 /* Frameworks */,
+				B19EEFA02131DCEE0053E619 /* Resources */,
+				B8ED0309B5053F3BBC0194AB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BartApp;
+			productName = BartApp;
+			productReference = B19EEFA22131DCEE0053E619 /* BartApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B19EEFB52131DCF30053E619 /* BartAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19EEFCD2131DCF30053E619 /* Build configuration list for PBXNativeTarget "BartAppTests" */;
+			buildPhases = (
+				6765E0960988433E95F4B67D /* [CP] Check Pods Manifest.lock */,
+				B19EEFB22131DCF30053E619 /* Sources */,
+				B19EEFB32131DCF30053E619 /* Frameworks */,
+				B19EEFB42131DCF30053E619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19EEFB82131DCF30053E619 /* PBXTargetDependency */,
+			);
+			name = BartAppTests;
+			productName = BartAppTests;
+			productReference = B19EEFB62131DCF30053E619 /* BartAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B19EEFC02131DCF30053E619 /* BartAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19EEFD02131DCF30053E619 /* Build configuration list for PBXNativeTarget "BartAppUITests" */;
+			buildPhases = (
+				353C8EF9AF030CAD3B4BC220 /* [CP] Check Pods Manifest.lock */,
+				B19EEFBD2131DCF30053E619 /* Sources */,
+				B19EEFBE2131DCF30053E619 /* Frameworks */,
+				B19EEFBF2131DCF30053E619 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B19EEFC32131DCF30053E619 /* PBXTargetDependency */,
+			);
+			name = BartAppUITests;
+			productName = BartAppUITests;
+			productReference = B19EEFC12131DCF30053E619 /* BartAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B19EEF9A2131DCEE0053E619 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Anthony Chan";
+				TargetAttributes = {
+					B19EEFA12131DCEE0053E619 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					B19EEFB52131DCF30053E619 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B19EEFA12131DCEE0053E619;
+					};
+					B19EEFC02131DCF30053E619 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = B19EEFA12131DCEE0053E619;
+					};
+				};
+			};
+			buildConfigurationList = B19EEF9D2131DCEE0053E619 /* Build configuration list for PBXProject "BartApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B19EEF992131DCEE0053E619;
+			productRefGroup = B19EEFA32131DCEE0053E619 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B19EEFA12131DCEE0053E619 /* BartApp */,
+				B19EEFB52131DCF30053E619 /* BartAppTests */,
+				B19EEFC02131DCF30053E619 /* BartAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B19EEFA02131DCEE0053E619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19EEFB02131DCF30053E619 /* LaunchScreen.storyboard in Resources */,
+				B19EEFAD2131DCF30053E619 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFB42131DCF30053E619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFBF2131DCF30053E619 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		353C8EF9AF030CAD3B4BC220 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BartAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6765E0960988433E95F4B67D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BartAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8ED0309B5053F3BBC0194AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BartApp/Pods-BartApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BartApp/Pods-BartApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEDE432A14DC0C5A36812E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BartApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B19EEF9E2131DCEE0053E619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B14E7AA42148C22F00ED97C3 /* StationInfoViewController.swift in Sources */,
+				B19EEFDC2133CB5F0053E619 /* SearchRouteTableViewCell.swift in Sources */,
+				B14E7AA821520C8D00ED97C3 /* TripInfoViewController.swift in Sources */,
+				B1973A8D2136711E001B6089 /* BartAPI.swift in Sources */,
+				B14E7AA2214791FE00ED97C3 /* IncomingTrain.swift in Sources */,
+				B14E7AA62148C27700ED97C3 /* IncomingTrainTableViewCell.swift in Sources */,
+				B14E7AAC2153325D00ED97C3 /* Fare.swift in Sources */,
+				B19EEFD721337A930053E619 /* BartURL.swift in Sources */,
+				B1973A9621450E68001B6089 /* SearchHeaderController.swift in Sources */,
+				B1973A9121424C19001B6089 /* HomeViewController.swift in Sources */,
+				B14E7AB02154C3F400ED97C3 /* TripInfoTableViewCell.swift in Sources */,
+				B19EEFA82131DCEE0053E619 /* SearchStationViewController.swift in Sources */,
+				B19EEFD5213379D00053E619 /* Station.swift in Sources */,
+				B14E7AAE2153370E00ED97C3 /* Leg.swift in Sources */,
+				B19EEFA62131DCEE0053E619 /* AppDelegate.swift in Sources */,
+				B14E7AAA2153318100ED97C3 /* Trip.swift in Sources */,
+				B1973A8F213E5D7F001B6089 /* FavoriteViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFB22131DCF30053E619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19EEFBB2131DCF30053E619 /* BartAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B19EEFBD2131DCF30053E619 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B19EEFC62131DCF30053E619 /* BartAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B19EEFB82131DCF30053E619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19EEFA12131DCEE0053E619 /* BartApp */;
+			targetProxy = B19EEFB72131DCF30053E619 /* PBXContainerItemProxy */;
+		};
+		B19EEFC32131DCF30053E619 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B19EEFA12131DCEE0053E619 /* BartApp */;
+			targetProxy = B19EEFC22131DCF30053E619 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B19EEFAE2131DCF30053E619 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B19EEFAF2131DCF30053E619 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B19EEFC82131DCF30053E619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B19EEFC92131DCF30053E619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B19EEFCB2131DCF30053E619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3C914F8C8EE6DB2C71E612 /* Pods-BartApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W564YTL7TQ;
+				INFOPLIST_FILE = BartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonychan.BartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B19EEFCC2131DCF30053E619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93D3D619139AE2F9DD159A5E /* Pods-BartApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W564YTL7TQ;
+				INFOPLIST_FILE = BartApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonychan.BartApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B19EEFCE2131DCF30053E619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E14ECB3FC995F5E2D007E6 /* Pods-BartAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W564YTL7TQ;
+				INFOPLIST_FILE = BartAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonychan.BartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BartApp.app/BartApp";
+			};
+			name = Debug;
+		};
+		B19EEFCF2131DCF30053E619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA9640F22750759A3890669 /* Pods-BartAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W564YTL7TQ;
+				INFOPLIST_FILE = BartAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonychan.BartAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BartApp.app/BartApp";
+			};
+			name = Release;
+		};
+		B19EEFD12131DCF30053E619 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4201109B67F416F0E5A44C32 /* Pods-BartAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W564YTL7TQ;
+				INFOPLIST_FILE = BartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonychan.BartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BartApp;
+			};
+			name = Debug;
+		};
+		B19EEFD22131DCF30053E619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2505DB5EC4835462A3D1966F /* Pods-BartAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W564YTL7TQ;
+				INFOPLIST_FILE = BartAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonychan.BartAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BartApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B19EEF9D2131DCEE0053E619 /* Build configuration list for PBXProject "BartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19EEFC82131DCF30053E619 /* Debug */,
+				B19EEFC92131DCF30053E619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19EEFCA2131DCF30053E619 /* Build configuration list for PBXNativeTarget "BartApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19EEFCB2131DCF30053E619 /* Debug */,
+				B19EEFCC2131DCF30053E619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19EEFCD2131DCF30053E619 /* Build configuration list for PBXNativeTarget "BartAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19EEFCE2131DCF30053E619 /* Debug */,
+				B19EEFCF2131DCF30053E619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B19EEFD02131DCF30053E619 /* Build configuration list for PBXNativeTarget "BartAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B19EEFD12131DCF30053E619 /* Debug */,
+				B19EEFD22131DCF30053E619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B19EEF9A2131DCEE0053E619 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_BartAppUITests {
+  umbrella header "Pods-BartAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
